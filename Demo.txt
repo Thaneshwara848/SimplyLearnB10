@@ -114,6 +114,35 @@ text
 
 
 
+			java 					javaScript 
+
+
+			Programmin lang 		Scripting lang 
+			compile 				no compiler 
+				run 					run 
+
+			slow					fast 
+			server side coding		client side coding lang  + server = 
+
+
+			Strict lang 
+				ends with semicolon 		not compsulry
+				must double quation 		not compulary 
+
+
+javascript 
+	Angualr JS 
+	React js 
+	node js 
+	express js 
+	vew js 
+	backbone js 
+	vennilla JS 
+
+server + client 
+
+
+
 
 
 

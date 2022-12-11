@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     
+        function myadd(){
+
+            a=parseInt(document.f1.a1.value);
+            b=parseInt(document.f1.a2.value);
+            c=a+b;
+            document.f1.res.value=c;
+
+       }
+
+
+       function mymul(){
+
+a=parseInt(document.f1.a1.value);
+b=parseInt(document.f1.a2.value);
+c=a*b;
+document.f1.res.value=c;
+
+}
+function mydiv(){
+
+a=parseFloat(document.f1.a1.value);
+b=parseFloat(document.f1.a2.value);
+c=a/b;
+document.f1.res.value=c;
+
+}
+function mysub(){
+
+a=parseInt(document.f1.a1.value);
+b=parseInt(document.f1.a2.value);
+c=a-b;
+document.f1.res.value=c;
+
+}
+    </script>
+
+</head>
+<body>
+    <form name="f1">
+        A :<input type="text" name="a1"><br>
+        B :<input type="text" name="a2"><br>
+        Result :<input type="text" name="res"><br>
+        <input type="button" value="ADD" onclick="myadd()">
+        <input type="button" value="SUB" onclick="mysub()">
+        <input type="button" value="MUL" onclick="mymul()">
+        <input type="button" value="DIV" onclick="mydiv()">
+
+    </form>
+</body>
+</html>
+
+ 
