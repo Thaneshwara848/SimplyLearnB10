@@ -1,0 +1,157 @@
+
+Phase- 4 
+			Anagular
+			
+
+				HTML
+				CSS 
+				JavaScript  
+				TypeScript 
+					Angualr 
+
+
+
+
+				VS Code : https://code.visualstudio.com/
+				NOde js : https://nodejs.org/en/download/
+				postman : https://www.postman.com/downloads/
+				Git 	   :https://desktop.github.com/ 
+				
+					
+
+	
+	
+			HTML : 
+title 
+head 
+br 
+p 
+hr 
+table 
+
+	tr 
+	td 
+	th 
+	cellpadding 
+	cellspacing 
+	rowspan 
+	colspan 
+List Demo 
+	ol 
+	ul 
+
+Form : 
+	
+
+
+
+
+
+CSS: 
+
+		
+		Inline Style Sheet : tag level styels 
+		Embaded / internal :  only for page level 
+		External Style Sheet : .css file then we are writing the style 
+
+		Selectors : 
+				tag 
+				id 
+				class 
+				multiple tag 
+				universal selector 
+
+		box model 
+			padding 
+			margin 
+			width 
+			border propertys 
+
+			backgroubd 
+					color 
+					image 
+				
+
+	Bootrstap have to start 
+
+
+
+
+HTML
+CSS
+Bootrstap===> Css Freamwork 
+		ready articture :
+
+over css most of the things are ready made 
+
+
+Freamwork ....!
+every thing we have ready made :
+
+grid 
+text
+ text backgroud 
+ text - color 
+ button 
+ table 
+ pagination 
+ progress bar 
+ GLypicons
+ Forms :
+ colleps 
+ Model 
+ nav bar 
+ carousel
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
