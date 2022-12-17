@@ -146,41 +146,83 @@ server + client
 
 
 
+java 
+	statements : 
+		if 
+		if else 
+		if else ladder 
+		nested if 
+		switch 
+
+	looping 
+		for 
+		while 
+		do while 
+
+	jumping 
+		break 
+		continue 
+		return 
+	
+Operators : 
+	uniry 
+	binary
+		assignament 
+		condational 
+		cpmpirion 
+		logical 
+		arethematic 
+
+	tarnary 
+
+	(a<=b) :a ? b
+
+
+Data types : 
+	Integer 
+	String 
+	boolean 
+
+
+DOM : 
+	documant object Model 
+	getEleemmtByID 
+	getEleemmtByName 
+	getEleemmtByTagName 
+	innterHtml 
+	innerText 
+	
+BOM : Browswer object Model  
+	alert 
+	confirm 
+	prompt 
+
+
+Events : 
+	 
+onclick
+ondblclick
+onmouseout
+onmouseover
+onfocus 
+onblur
+ondrag
+onload
+onsubmit 
+onselect
 
 
 
+		java 				javaScript 
 
+	Prog 					Script 
+	compiled and run		Only run 
+	slow 					fast 
 
+	only server side 		Clinet + server = so popular 
+	very Strit 				not much (); ,"" 
 
+	=======================================
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
+		
