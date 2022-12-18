@@ -226,3 +226,189 @@ onselect
 
 	
 		
+
+Type Script: 
+
+	Data Types: 
+		number 
+		String 
+		boolen 
+		any 
+	paramter : 
+		default 
+		optional 
+	Compileed and intrepted 
+
+	Oops : 
+		Inhreitance 
+			acurire the prprty from parent ot child 
+
+		Polykorphism 
+
+		abstraction 
+			hide the implemention : 
+
+		encupulation 
+				hiding the data into sinlge unit 
+
+	Export and Import 
+
+	Access modifer  : 
+		public 
+		private 
+		proteced 
+	non Access modifier 
+		static 
+		absrtact 
+		const 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+ng new Facebook
+routing : yes 
+css 
+
+it will take 2-3 minuts to create a application 
+	
+then
+
+
+cd Facebook 
+
+Run ? 
+
+ng serve 
+
+comlils : 
+		web browswer 		
+			http://localhost:4200/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hard re fresh : 
+link ? to configure  ? 
+
+
+
+Angualr: 
+	Live Reloading....!
+	Fast Developmemnt .....!
+	by default all the confuguration done 
+
+
+
+
+
+
+
+
+	COmponennt : 
+			.html  : Styatic web page  
+			.css(Botsprap): Look and feel 
+			.ts    : with logic 
+			.spect.ts  : testing 
+
+
+
+
+
+		
+
+	Facebook : 
+		
+
+		COmponents : 
+			
+
+			login:
+					html 
+					css	
+					.ts
+					spec.ts
+ 
+			register 
+					html 
+					css	
+					.ts
+					spec.ts
+			forgertpass
+
+					`html 
+					css	
+					.ts
+					spec.ts 
+			services 
+					html 
+					css	
+					.ts
+					spec.ts
+			contact us 
+					html 
+					css	
+					.ts
+					spec.ts
+			department 
+
+			Loan :(parent )
+
+					Child : 
+					edu 
+					car 
+					home
+					personl
+					
+
+
+			ng generate component login
+			ng g c login 
+			
+
+
+
+Routing ....!
+
+========================
+
+
+
+1)<a routerLink="home">Home </home>
+2)<router-outlet></router-outlet>
+3)rouert file configure 
+
+
+
+
+project based : 
+	nav bar 
+	using thesame compt: lets navigate 
+
+
+
+
+
+
+			
+
