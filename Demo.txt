@@ -41,10 +41,12 @@ List Demo
 	ul 
 
 Form : 
+		text, password , radio, checkbox , email, file , submit, reset , color, 
+		date , 
 	
 
-
-
+Audio/ vid
+map 
 
 
 CSS: 
@@ -70,6 +72,11 @@ CSS:
 			backgroubd 
 					color 
 					image 
+					attcahmnt 
+					position 
+					size 
+			z-index 
+			
 				
 
 	Bootrstap have to start 
@@ -401,10 +408,20 @@ Routing ....!
 
 
 
-project based : 
-	nav bar 
-	using thesame compt: lets navigate 
 
+
+
+
+Data Binding :
+
+		2 types 
+				1 ) one way data binding 
+						interpolation : {{ }}
+						Event bing    :()
+						Property Binding : [ ]
+				2 ) two way data binding 
+
+							[( )]
 
 
 

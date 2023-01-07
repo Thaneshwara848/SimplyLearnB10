@@ -11,6 +11,7 @@ import { EduComponent } from './loan/edu/edu.component';
 import { CarComponent } from './loan/car/car.component';
 import { HomeComponent } from './home/home.component';
 import { GalaryComponent } from './galary/galary.component';
+import { BindingComponent } from './binding/binding.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { GalaryComponent } from './galary/galary.component';
     EduComponent,
     CarComponent,
     HomeComponent,
-    GalaryComponent
+    GalaryComponent,
+    BindingComponent
   ],
   imports: [
     BrowserModule,

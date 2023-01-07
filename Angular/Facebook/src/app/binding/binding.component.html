@@ -1,0 +1,31 @@
+<div style="text-align: center;">
+    <h1> Hi Data Binding Demo </h1>
+    <h3>HI Mr ! {{name}}</h3>
+    <br>
+    <input type="submit" value="CLICK" (click)="myfun()">
+    <br>
+    <input type="text"  #user>
+    <input type="submit" (click)="xyz(user.value)">
+    <hr>
+    Pricliple :<input type="text" #p><br>
+    Time      :<input type="text" #t><br>
+    Loan Type :
+    <select (change)="roi($event)">
+        <option >LOAN</option>
+        <option value="car">CAR</option>
+        <option value="home">HOME</option>
+        <option value="edu">EDU</option>
+        <option value="personal">PERSONAL</option>
+    </select>
+    ROI       :<input type="text" #r value={{intrest}} disabled><br>
+    Total     :<input type="text" value={{total}}><br>
+    EMI       :<input type="text" value= {{emi}}><br>
+    <input type="submit" value="Caculate" 
+    (click)="cal(p.value,t.value,r.value)"><br>
+    Total :{{total}}<br>
+    EMI :{{emi}}
+</div>      
+
+
+<input type="submit" [disabled]="op">
+<img [src]="myimg" alt="Loding....!">
