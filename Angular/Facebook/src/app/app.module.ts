@@ -20,6 +20,11 @@ import { CubePipe } from './cube.pipe';
 import { TempletdrivefromComponent } from './templetdrivefrom/templetdrivefrom.component';
 import { ReactivedrivenfromComponent } from './reactivedrivenfrom/reactivedrivenfrom.component';
 import { FormsModule ,ReactiveFormsModule}   from '@angular/forms';
+import { ServDemoComponent } from './serv-demo/serv-demo.component';
+import { A1Component } from './a1/a1.component';
+import { A2Component } from './a2/a2.component';
+import { A3Component } from './a3/a3.component';
+import { A4Component } from './a4/a4.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +43,12 @@ import { FormsModule ,ReactiveFormsModule}   from '@angular/forms';
     SqrPipe,
     CubePipe,
     TempletdrivefromComponent,
-    ReactivedrivenfromComponent
+    ReactivedrivenfromComponent,
+    ServDemoComponent,
+    A1Component,
+    A2Component,
+    A3Component,
+    A4Component
   ],
   imports: [
     BrowserModule,

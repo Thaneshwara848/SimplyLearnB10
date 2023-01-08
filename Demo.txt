@@ -483,9 +483,17 @@ Angular :
 
 						2) Reactive Driven From 
 								Validation in TS ( Type Script File )
-		Services 
-		LifeCycles
+		LifeCycles: 		
+					ngOnInt: as soon as your component gets load , it will execute 
+					ngOnDestroy : 
+		Services :
+					if i want to share the infomation across all the component 
+					
+					ng g s service-name
+					ng g s commonServDemo
+					
 		http methods : 
+	
 				Front end + backend Integration 
 		
 

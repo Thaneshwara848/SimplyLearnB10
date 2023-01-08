@@ -9,8 +9,13 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { RegisterComponent } from './register/register.component';
+import { ServDemoComponent } from './serv-demo/serv-demo.component';
 
 const routes: Routes = [
+  {
+    path:'serv',
+    component:ServDemoComponent
+  },
   {
     path:'forms',
     component:FormdemoComponent

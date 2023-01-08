@@ -1,0 +1,16 @@
+<table class="table">
+    <tr>
+        <th>ID </th>
+        <th>NAME </th>
+        <th>AGE </th>
+        <th>SALARY</th>
+        <th>DESIG</th>
+    </tr>
+    <tr *ngFor="let emp of myemp">
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.salary}}</td>
+        <td>{{emp.desig}}</td>
+    </tr>
+</table>
