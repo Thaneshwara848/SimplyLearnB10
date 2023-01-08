@@ -423,9 +423,86 @@ Data Binding :
 
 							[( )]
 
+Directive :
+			Attrubute Directive 
+				*ngIf
+				*ngFor
+			Structural Directive 
+				ngClass 
 
 
 
 
 			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Angular : 
+		Building block of Elemets : 
+
+
+		Component
+					ng g c comp-name  
+		Routing 
+		DataBinding 
+		Directive
+		Pipe Demo
+					ng g p pipe-name
+				
+		Forms 
+					2 type of forms 
+
+						1) templet Driven From :
+									
+								Validation in HTML 
+										LOGIN page : 
+													username 
+													password 
+										
+														Login 
+														Reset 
+
+						2) Reactive Driven From 
+								Validation in TS ( Type Script File )
+		Services 
+		LifeCycles
+		http methods : 
+				Front end + backend Integration 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

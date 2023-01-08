@@ -1,0 +1,28 @@
+
+
+/* .div1{
+    width: 50%;
+    background-color: pink;
+    border: 5px solid red;
+}
+.div2{
+    width: 50%;
+    background-color: pink;
+    
+}
+.div3{
+    width: 50%;
+    
+    border: 5px solid red ;
+} */
+div{
+    width: 50%;
+}
+
+.bdr{
+    border:  5px solid red ;
+}
+
+.bgclr{
+    background-color: pink;
+}

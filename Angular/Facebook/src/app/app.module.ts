@@ -12,7 +12,14 @@ import { CarComponent } from './loan/car/car.component';
 import { HomeComponent } from './home/home.component';
 import { GalaryComponent } from './galary/galary.component';
 import { BindingComponent } from './binding/binding.component';
-
+import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { FormdemoComponent } from './formdemo/formdemo.component';
+import { SqrPipe } from './sqr.pipe';
+import { CubePipe } from './cube.pipe';
+import { TempletdrivefromComponent } from './templetdrivefrom/templetdrivefrom.component';
+import { ReactivedrivenfromComponent } from './reactivedrivenfrom/reactivedrivenfrom.component';
+import { FormsModule }   from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,11 +31,19 @@ import { BindingComponent } from './binding/binding.component';
     CarComponent,
     HomeComponent,
     GalaryComponent,
-    BindingComponent
+    BindingComponent,
+    DirectivedemoComponent,
+    PipedemoComponent,
+    FormdemoComponent,
+    SqrPipe,
+    CubePipe,
+    TempletdrivefromComponent,
+    ReactivedrivenfromComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,40 @@
+<h1> Strutural Directive </h1>
+<div *ngIf="op">
+    <h1> Im Good How are you </h1>
+</div>
+
+<input type="text" #fname>
+<input type="submit" value="Add Fruit" 
+(click)="addFruit(fname.value)">
+
+<ul *ngFor="let fru of fruits">
+    <li>{{fru}}</li>
+</ul>
+<h1>Attrubute Directive </h1>
+
+<div [ngClass]="{'bdr':true,'bgclr':true}">
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+</div>
+
+<div [ngClass]="{'bdr':true,'bgclr':false}">
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+</div>
+
+<div [ngClass]="{'bdr':true,'bgclr':true}">
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+</div>
