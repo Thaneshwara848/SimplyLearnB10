@@ -12,9 +12,7 @@
             <input type="text" class="form-control" required name="userpass" ngModel #userpass="ngModel"><br>
             <span *ngIf="userpass.invalid && userpass.touched" style="color: red;">Password is Requried....!</span>
         </div>
-        
-
-        <input type="submit" class="btn btn-success">
+        <input type="submit" class="btn btn-success" >
         <input type="reset" class="btn btn-danger">
     </form>
 </div>

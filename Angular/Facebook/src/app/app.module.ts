@@ -19,7 +19,7 @@ import { SqrPipe } from './sqr.pipe';
 import { CubePipe } from './cube.pipe';
 import { TempletdrivefromComponent } from './templetdrivefrom/templetdrivefrom.component';
 import { ReactivedrivenfromComponent } from './reactivedrivenfrom/reactivedrivenfrom.component';
-import { FormsModule }   from '@angular/forms';
+import { FormsModule ,ReactiveFormsModule}   from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +43,8 @@ import { FormsModule }   from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -489,6 +489,7 @@ Angular :
 				Front end + backend Integration 
 		
 
+		
 
 
 
@@ -496,6 +497,12 @@ Angular :
 
 
 
+
+ID 
+NAME 
+AGE 
+SALARY 
+DESIG 
 
 
 

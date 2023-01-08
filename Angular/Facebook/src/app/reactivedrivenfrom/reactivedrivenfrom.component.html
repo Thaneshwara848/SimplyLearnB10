@@ -1,1 +1,17 @@
-<p>reactivedrivenfrom works!</p>
+<div>
+
+
+
+    <h2>Reactive Driven From </h2>
+    <form [formGroup]="student">
+       <h3>
+        FIrst name :<input type="text" formControlName="firstname"><br>
+        Last name :<input type="text" formControlName="lastname"><br>  
+        User Age  : <input type="text" formControlName="age"><br>
+
+        <br>
+        <input type="submit"  class="btn btn-success" [disabled]="student.invalid">
+        <input type="reset" class="btn btn-danger">
+       </h3>
+    </form>
+</div>
